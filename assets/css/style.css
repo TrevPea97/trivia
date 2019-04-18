@@ -1,6 +1,6 @@
 body{
   color: black;
-	background-image: url("../images/90BG.jpeg");
+	background-image: url("./assets/images/90BG.jpeg");
   text-align: center;
   background-size: 149%;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ h3{
 }
 
 #start {
-  color: whitesmoke;
+  color: black;
   margin-top: 0%;
   font-size: 30px;
   width: 100px;
@@ -78,7 +78,7 @@ h3{
 
 button {
   background: darkblue;
-  color: whitesmoke;
+  color: black;
   width: 200px;
   height: 80px;
   border: solid 2px black;
