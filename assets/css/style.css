@@ -1,0 +1,64 @@
+body{
+  background-image: url("../images/90BG.jpeg");
+	text-align: center;
+}
+
+.text-muted{
+	color: purple;
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 15px;
+}
+
+
+body {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#quiz {
+  background-image: url("../images/90BG.jpeg");
+  background-position: top;
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+#img {
+max-width: 200px;
+max-height: 200px;
+}
+
+.jumbotron {
+  background-image: url("../images/90header.jpeg");
+  background-size: 10%;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.row {
+  padding:10px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 3px 5px 7px blue ;
+}
+
+h2,p {
+  font-weight: 500;
+  color: ghostwhite;
+  padding: 3px;
+}
+
+button{
+  padding: 5px;
+  font-weight: bold;
+}

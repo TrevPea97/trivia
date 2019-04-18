@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>90's Trivia</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <div class="container">
+            <div class="jumbotron">
+				<h1>90's Trivia Game</h1>
+			</div>
+
+			<div id="quiz">
+
+				<div class="row">
+					<h2>The Rules</h2>
+					<p>There are five questions, you have 50 seconds to answer all questions.</p>
+				</div>
+				<div class="row">
+					<p>Click Start to begin!</p>
+					<br>
+					<button type="button"><a href="#" id="startClock"> Start</a></button>
+					<span id="count">50</span> seconds remain
+				</div>
+
+				<div class="row">
+				<p class="question">1. Who is the biggest selling female artist of the 90s?</p>
+					<ul class="answers">
+					<input type="radio" id="q1a"> Beyonce<br/>
+					<input type="radio" id="q1b"> Celine Dion<br/>
+					<input type="radio" id="q1c"> Mariah Carey<br/>
+					<input type="radio" id="q1d"> Madonna<br/>
+					</ul>
+				</div>
+
+				<div class="row">
+					<p class="question">2. Which 90s movie soundtrack is the best-selling soundtrack of all time?</p>
+					<ul class="answers">
+						<input type="radio" id="q2a"> The Lion King<br/>
+						<input type="radio" id="q2b"> Sister Act<br/>
+						<input type="radio" id="q2c"> The Bodyguard<br/>
+						<input type="radio" id="q2d"> Grease<br/>
+					</ul>
+				</div>
+
+				<div class="row">
+					<p class="question">3. Which 90s movie featured the Looney Tunes on its soundtrack?</p>
+					<ul class="answers">
+						<input type="radio" id="q3a"> Who Framed Rodger Rabbit<br/>
+						<input type="radio" id="q3b"> Space Jam <br/>
+						<input type="radio" id="q3c"> Looney Tunes: Back in Action<br/>
+						<input type="radio" id="q3d"> Honey I Shrunk The Kids<br/>
+					</ul>
+				</div>
+
+				<div class="row">
+					<p class="question">4. What year was the song My Heart Will Go On from Titanic released?</p>
+					<ul class="answers">
+						<input type="radio" id="q4a"> 1996<br/>
+						<input type="radio" id="q4b"> 1999<br/>
+						<input type="radio" id="q4c"> 1997<br/>
+						<input type="radio" id="q4d"> 1993<br/>
+					</ul>
+				</div>
+
+				<div class="row">
+					<p class="question">5. What is the name of Will Smiths character in Independence Day?</p>
+					<ul class="answers">
+						<input type="radio" id="q5a"> Captain Steven Hiller<br/>
+						<input type="radio" id="q5b"> Blade<br/>
+						<input type="radio" id="q5c"> Hancock<br/>
+						<input type="radio" id="q5d"> Thor<br/>
+					</ul>
+				</div>
+
+				<div class="row">
+						<button type="button" ><a href="#" id="submit">Submit Final Answers</a></button>
+					</div>
+
+				<div class="row">
+					<div id="results">
+						<p>Answers NOW!</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<button type="button"><a href="#" id="restart">Play Again</a></button>
+					</div>
+				</div>
+
+			<footer id="footer" class="site-footer">
+				<div class="container">
+					&copy; Trevor Peacock
+				</div>
+			</footer>
+		</div>
+	<!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
