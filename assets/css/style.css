@@ -1,64 +1,85 @@
 body{
-  background-image: url("../images/90BG.jpeg");
-	text-align: center;
-}
-
-.text-muted{
-	color: purple;
-}
-.last-seconds{
-  color: red;
-}
-.option{
-  margin: 15px;
-}
-
-
-body {
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-#quiz {
-  background-image: url("../images/90BG.jpeg");
-  background-position: top;
-  background-attachment: absolute;
+	background-image: url("../images/90bg.jpeg");
+  text-align: center;
+  background-size: 149%;
   background-repeat: no-repeat;
-  padding-left: 20px;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-#img {
-max-width: 200px;
-max-height: 200px;
+html, body{
+  height:100%;
 }
 
-.jumbotron {
-  background-image: url("../images/90header.jpeg");
-  background-size: 10%;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  padding-left: 10px;
+#container{
+  font-size: 48px;
+  padding: 10% 0;
+  width:960px;
+  margin:10% auto;
+  box-sizing: border-box;
+  border: black;
+  min-height: 80%;
 }
 
-.row {
-  padding:10px;
-}
-
-h1 {
-  font-size: 50px;
-  font-weight: bold;
-  text-shadow: 3px 5px 7px blue ;
-}
-
-h2,p {
-  font-weight: 500;
-  color: ghostwhite;
-  padding: 3px;
+.container2{
+  position: relative;
+  top:20%;
+  color: white;
 }
 
 button{
-  padding: 5px;
+  display:block;
+  width:400px;
+  height:100px;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;;
+}
+
+#head{
+  margin: 10px 0;
+  border: solid 2px black;
+}
+
+h1{
+  font-size: 45px;
+  margin-bottom: 20px;
   font-weight: bold;
+  color:white;
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#start {
+  color: whitesmoke;
+  margin-top: 0%;
+  font-size: 30px;
+  width: 100px;
+  height: 60px;
+  background: darkblue;
+  border: solid  2px black;
+}
+
+#quiz-area{
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+
+button {
+  background: darkblue;
+  color: whitesmoke;
+  width: 200px;
+  height: 80px;
+  border: solid 2px black;
 }
